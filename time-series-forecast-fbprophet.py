@@ -6,18 +6,13 @@
 
 from matplotlib import pyplot as plt
 from fbprophet import Prophet
-
 import math
-
-
 import gdal
 import glob
 import os
 import pandas as pd
-
 import numpy as np
 import matplotlib.pylab as plt
-
 from multiprocessing import Pool
 import time
 
@@ -25,49 +20,6 @@ import time
 NoData = 0
 ImProj = 0
 ImGeotrans = 0
-
-def eye_stationarity(timeseries):
-    #这里以一年为一个窗口，每一个时间t的值由它前面的12个月的均值替代，标准差同理
-
-    rolmean = pd.Series.rolling(timeseries, window=12,center=False).mean()
-    rolstd  = pd.Series.rolling(timeseries, window=12).std()
-
-    #plot
-    orig = plt.plot(timeseries, color='blue',label='Original')
-    mean = plt.plot(rolmean, color='red', label='Rolling Mean')
-    std = plt.plot(rolstd, color='black', label = 'Rolling Std')
-    plt.legend(loc='best')
-    plt.title('Rolling Mean & Standard Deviation')
-    plt.show(block=False)
-
-# 平稳转换，消除趋势和季节性  一阶差分
-def transform_stationary(ts, degree):
-    '''
-
-    :param ts:
-    :param degree: 差分的阶数 1 代表进行1阶差分 2代表进行二阶差分
-    :return:
-    '''
-    # 利用log 降低异方差性
-    ts_log = ts #np.log(ts)
-
-    # 对于高季节性的时间序列来说，需要先采用简单的低阶差分将信息提取充分，通过周期步长差分将季节信息提取，剩下的残差序列就是一个平稳序列
-    # 1阶差分  周期步长为 12
-
-    # rs_diff0 = (ts_log - ts_log.shift(periods=12)) - (ts_log.shift() - ts_log.shift().shift(periods=12))
-    # print("rs_diff0 = \n", rs_diff0)
-    ts_log_diff = ts_log.diff()#  = ts_log - ts_log.shift()
-
-    while degree > 1:
-        ts_log_diff = ts_log_diff.diff()
-        degree = degree - 1
-    # print("ts_log_diff = \n", ts_log_diff)
-
-    rs_log_diff = ts_log_diff - ts_log_diff.shift(periods=12)
-    # print("rs_log_diff = \n", rs_log_diff)
-    rs_log_diff.dropna(inplace=True)
-
-    return  ts_log_diff, rs_log_diff
 
 # 读取TIFF文件
 def read_geotiff(filename):
@@ -204,17 +156,7 @@ def my_arima(time_series, dtindex, pid):
         future = m.make_future_dataframe(periods=12, freq='MS')
         forecast = m.predict(future)
         # print("forecast['yhat'] = \n", forecast['yhat'])
-        # # 2 检测数据的平稳性, 如果平稳可直接进行预测，否则需先将不平稳的数据变得稳定
-        # #  并返回需要差分的阶数 d
-        # d = get_diff_order(ts)
-        #
-        # # 3 如果数据已经稳定，可直接进行处理；如果不稳定，处理时序数据变成稳定的数据,  返回值依次为原数据的取对数，一阶差分，周期步长差分
-        # order, seasonal_order = get_sarima_params(ts, d)
-        # # print("order = ", order)
-        # # print("seasonal_order = ", seasonal_order)
-        #
-        # # 4 预测 模型定阶之后，开始进行预测。预测所需的数据并不是进行一阶差分、周期差分之后的数据，而是只进行了取对数之后的数据，因为SARIMAX方法可以自动进行差分并复原
-        # fittedvalues, fc, conf, results_fitted = draw_future_plot(ts, order, seasonal_order, 6)
+      
         month_7.append(forecast['yhat'][75])
         month_8.append(forecast['yhat'][76])
         month_9.append(forecast['yhat'][77])
