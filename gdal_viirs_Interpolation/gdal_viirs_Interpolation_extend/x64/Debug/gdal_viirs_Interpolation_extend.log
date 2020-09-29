@@ -1,0 +1,111 @@
+﻿  main.cpp
+D:\Program Files\gdal\include\ogr_featurestyle.h(89,39): warning C4251: “OGRStyleTable::osLastRequestedStyleName”: class“CPLStringT<void>”需要有 dll 接口由 class“OGRStyleTable”的客户端使用
+D:\Program Files\gdal\include\cpl_string.h(323): message : 参见“CPLStringT<void>”的声明
+D:\Program Files\gdal\include\cpl_json.h(153,24): warning C4251: “CPLJSONObject::m_osKey”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CPLJSONObject”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\Program Files\gdal\include\ogr_geometry.h(947,53): warning C4251: “OGRCurve::ConstIterator::m_poPrivate”: class“std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<OGRCurve::ConstIterator::Private>>”需要有 dll 接口由 class“OGRCurve::ConstIterator”的客户端使用
+D:\Program Files\gdal\include\ogr_geometry.h(947): message : 参见“std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<OGRCurve::ConstIterator::Private>>”的声明
+D:\Program Files\gdal\include\ogr_geometry.h(1066,53): warning C4251: “OGRSimpleCurve::Iterator::m_poPrivate”: class“std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<OGRSimpleCurve::Iterator::Private>>”需要有 dll 接口由 class“OGRSimpleCurve::Iterator”的客户端使用
+D:\Program Files\gdal\include\ogr_geometry.h(1066): message : 参见“std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<OGRSimpleCurve::Iterator::Private>>”的声明
+D:\Program Files\gdal\include\ogr_geometry.h(1083,53): warning C4251: “OGRSimpleCurve::ConstIterator::m_poPrivate”: class“std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<OGRSimpleCurve::ConstIterator::Private>>”需要有 dll 接口由 class“OGRSimpleCurve::ConstIterator”的客户端使用
+D:\Program Files\gdal\include\ogr_geometry.h(1083): message : 参见“std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<OGRSimpleCurve::ConstIterator::Private>>”的声明
+D:\Program Files\gdal\include\ogr_feature.h(384,45): warning C4251: “OGRFeature::FieldValue::m_poPrivate”: class“std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<OGRFeature::FieldValue::Private>>”需要有 dll 接口由 class“OGRFeature::FieldValue”的客户端使用
+D:\Program Files\gdal\include\ogr_feature.h(384): message : 参见“std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<OGRFeature::FieldValue::Private>>”的声明
+D:\Program Files\gdal\include\ogr_feature.h(527,45): warning C4251: “OGRFeature::ConstFieldIterator::m_poPrivate”: class“std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<OGRFeature::ConstFieldIterator::Private>>”需要有 dll 接口由 class“OGRFeature::ConstFieldIterator”的客户端使用
+D:\Program Files\gdal\include\ogr_feature.h(527): message : 参见“std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<OGRFeature::ConstFieldIterator::Private>>”的声明
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\main.cpp(57,115): warning C4305: “参数”: 从“double”到“float”截断
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\main.cpp(1095,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  SADataExec.cpp
+D:\Program Files\gdal\include\ogr_featurestyle.h(89,39): warning C4251: “OGRStyleTable::osLastRequestedStyleName”: class“CPLStringT<void>”需要有 dll 接口由 class“OGRStyleTable”的客户端使用
+D:\Program Files\gdal\include\cpl_string.h(323): message : 参见“CPLStringT<void>”的声明
+D:\Program Files\gdal\include\cpl_json.h(153,24): warning C4251: “CPLJSONObject::m_osKey”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CPLJSONObject”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\Program Files\gdal\include\ogr_geometry.h(947,53): warning C4251: “OGRCurve::ConstIterator::m_poPrivate”: class“std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<OGRCurve::ConstIterator::Private>>”需要有 dll 接口由 class“OGRCurve::ConstIterator”的客户端使用
+D:\Program Files\gdal\include\ogr_geometry.h(947): message : 参见“std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<OGRCurve::ConstIterator::Private>>”的声明
+D:\Program Files\gdal\include\ogr_geometry.h(1066,53): warning C4251: “OGRSimpleCurve::Iterator::m_poPrivate”: class“std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<OGRSimpleCurve::Iterator::Private>>”需要有 dll 接口由 class“OGRSimpleCurve::Iterator”的客户端使用
+D:\Program Files\gdal\include\ogr_geometry.h(1066): message : 参见“std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<OGRSimpleCurve::Iterator::Private>>”的声明
+D:\Program Files\gdal\include\ogr_geometry.h(1083,53): warning C4251: “OGRSimpleCurve::ConstIterator::m_poPrivate”: class“std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<OGRSimpleCurve::ConstIterator::Private>>”需要有 dll 接口由 class“OGRSimpleCurve::ConstIterator”的客户端使用
+D:\Program Files\gdal\include\ogr_geometry.h(1083): message : 参见“std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<OGRSimpleCurve::ConstIterator::Private>>”的声明
+D:\Program Files\gdal\include\ogr_feature.h(384,45): warning C4251: “OGRFeature::FieldValue::m_poPrivate”: class“std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<OGRFeature::FieldValue::Private>>”需要有 dll 接口由 class“OGRFeature::FieldValue”的客户端使用
+D:\Program Files\gdal\include\ogr_feature.h(384): message : 参见“std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<OGRFeature::FieldValue::Private>>”的声明
+D:\Program Files\gdal\include\ogr_feature.h(527,45): warning C4251: “OGRFeature::ConstFieldIterator::m_poPrivate”: class“std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<OGRFeature::ConstFieldIterator::Private>>”需要有 dll 接口由 class“OGRFeature::ConstFieldIterator”的客户端使用
+D:\Program Files\gdal\include\ogr_feature.h(527): message : 参见“std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<OGRFeature::ConstFieldIterator::Private>>”的声明
+D:\Program Files\gdal\include\gdal_priv.h(137,37): warning C4251: “GDALMajorObject::sDescription”: class“CPLStringT<void>”需要有 dll 接口由 class“GDALMajorObject”的客户端使用
+D:\Program Files\gdal\include\cpl_string.h(323): message : 参见“CPLStringT<void>”的声明
+D:\Program Files\gdal\include\gdal_priv.h(190,30): warning C4251: “GDALDefaultOverviews::osOvrFilename”: class“CPLStringT<void>”需要有 dll 接口由 class“GDALDefaultOverviews”的客户端使用
+D:\Program Files\gdal\include\cpl_string.h(323): message : 参见“CPLStringT<void>”的声明
+D:\Program Files\gdal\include\gdal_priv.h(483,53): warning C4251: “GDALDataset::Bands::Iterator::m_poPrivate”: class“std::unique_ptr<GDALDataset::Bands::Iterator::Private,std::default_delete<GDALDataset::Bands::Iterator::Private>>”需要有 dll 接口由 class“GDALDataset::Bands::Iterator”的客户端使用
+D:\Program Files\gdal\include\gdal_priv.h(483): message : 参见“std::unique_ptr<GDALDataset::Bands::Iterator::Private,std::default_delete<GDALDataset::Bands::Iterator::Private>>”的声明
+D:\Program Files\gdal\include\gdal_priv.h(670,53): warning C4251: “GDALDataset::Layers::Iterator::m_poPrivate”: class“std::unique_ptr<GDALDataset::Layers::Iterator::Private,std::default_delete<GDALDataset::Layers::Iterator::Private>>”需要有 dll 接口由 class“GDALDataset::Layers::Iterator”的客户端使用
+D:\Program Files\gdal\include\gdal_priv.h(670): message : 参见“std::unique_ptr<GDALDataset::Layers::Iterator::Private,std::default_delete<GDALDataset::Layers::Iterator::Private>>”的声明
+D:\Program Files\gdal\include\gdal_priv.h(728,53): warning C4251: “GDALDataset::Features::Iterator::m_poPrivate”: class“std::unique_ptr<GDALDataset::Features::Iterator::Private,std::default_delete<GDALDataset::Features::Iterator::Private>>”需要有 dll 接口由 class“GDALDataset::Features::Iterator”的客户端使用
+D:\Program Files\gdal\include\gdal_priv.h(728): message : 参见“std::unique_ptr<GDALDataset::Features::Iterator::Private,std::default_delete<GDALDataset::Features::Iterator::Private>>”的声明
+D:\Program Files\gdal\include\gdal_priv.h(953,42): warning C4251: “GDALColorTable::aoEntries”: class“std::vector<GDALColorEntry,std::allocator<GDALColorEntry>>”需要有 dll 接口由 class“GDALColorTable”的客户端使用
+D:\Program Files\gdal\include\gdal_priv.h(953): message : 参见“std::vector<GDALColorEntry,std::allocator<GDALColorEntry>>”的声明
+D:\Program Files\gdal\include\gdal_priv.h(1513,55): warning C4251: “GDALDriverManager::oMapNameToDrivers”: class“std::map<CPLString,GDALDriver *,std::less<CPLString>,std::allocator<std::pair<const CPLString,GDALDriver *>>>”需要有 dll 接口由 class“GDALDriverManager”的客户端使用
+D:\Program Files\gdal\include\gdal_priv.h(1513): message : 参见“std::map<CPLString,GDALDriver *,std::less<CPLString>,std::allocator<std::pair<const CPLString,GDALDriver *>>>”的声明
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\Cramer.h(70,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\Cramer.h(72,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\Cramer.h(94,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(68,1): warning C4305: “初始化”: 从“double”到“float”截断
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(70,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(70,1): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(89,29): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(90,29): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(95,26): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(96,26): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(104,71): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(105,71): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(132,1): warning C4305: “-=”: 从“double”到“float”截断
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(111,21): warning C4101: “s”: 未引用的局部变量
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(141,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(142,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(143,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(144,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(148,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(149,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(150,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\BezierCurve.h(151,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\CubicExponentialSmoothing.h(56,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\GrayForecastModel.h(20,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(114,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(115,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(2845,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(2858,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(2863,26): warning C4101: “sf”: 未引用的局部变量
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(3302,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(3313,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(3312,13): warning C4101: “y”: 未引用的局部变量
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(3318,28): warning C4101: “be”: 未引用的局部变量
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(3806,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(4222,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(4228,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(4660,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(4666,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(192,16): warning C4244: “初始化”: 从“_Ty”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty1=int
+          ]
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(216): message : 查看对正在编译的函数 模板 实例化“std::pair<int,int>::pair<_Ty&,int,0>(_Other1,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Ty=double,
+              _Other1=double &,
+              _Other2=int
+          ]
+F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\gdal_viirs_Interpolation_extend\SADataExec.cpp(216): message : 查看对正在编译的函数 模板 实例化“std::pair<int,int>::pair<_Ty&,int,0>(_Other1,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Ty=double,
+              _Other1=double &,
+              _Other2=int
+          ]
+  Spline.cpp
+  正在生成代码...
+    正在创建库 F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\x64\Debug\gdal_viirs_Interpolation_extend.lib 和对象 F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\x64\Debug\gdal_viirs_Interpolation_extend.exp
+  gdal_viirs_Interpolation_extend.vcxproj -> F:\04-dissertation\02-VIIRS\IEEE回复审稿人\github\TimeSeriesMethod\gdal_viirs_Interpolation\x64\Debug\gdal_viirs_Interpolation_extend.exe
